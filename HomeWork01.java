@@ -1,10 +1,7 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class HomeWork01 {
     public static void main(String[] args) {
-        // Реализуйте 3 метода, 
-        // чтобы в каждом из них получить разные исключения
         int[] arr = new int[]{8,3,6,4,3,7,10,8};
         int[] arr_2 = new int[]{4,1,2,4,3,1,10,2};
         String[][]arrStr = new String[][]{{"13","21","5","4","1"},{"13","1","4","2","1"},
