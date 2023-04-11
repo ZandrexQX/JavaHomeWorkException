@@ -17,10 +17,12 @@ public class HomeWork002 {
         System.out.print("Input a float: ");
         try {
             float num = sc.nextFloat();
+            sc.close();
         } catch (Exception e) {
             System.out.println("Error!");
             FloatInput();
         }
+
     }
 
     private static void Task_2_2(int [] intArray, int d, int index) {
@@ -66,6 +68,7 @@ public class HomeWork002 {
             System.out.println("Пустая строка!!");
             NullInput();
         }
+        sc.close();
         
     }
 }
