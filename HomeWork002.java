@@ -8,6 +8,8 @@ public class HomeWork002 {
         Task_2_2(intArray, 10, 5);
 
         Task_2_3();
+
+        NullInput();
     }
     
     private static void FloatInput() {
@@ -54,5 +56,16 @@ public class HomeWork002 {
             System.out.println("Что-то пошло не так...");
         } 
      
+    }
+
+    private static void NullInput() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Введите строку: ");
+        String num = sc.nextLine();
+        if (num == "" || num.replace(" ", "") == ""){
+            System.out.println("Пустая строка!!");
+            NullInput();
+        }
+        
     }
 }
